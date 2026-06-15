@@ -95,7 +95,7 @@ const Navbar = () => {
           {/* Right side */}
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:ml-6 sm:pr-0">
               <div>
-                    <Link to ="/login">Login / Register</Link>  
+                    <Link to ="/create-account">User Account</Link>  
               </div>          
           </div>
         </div>
