@@ -7,7 +7,7 @@ const Login = () => {
             {/* Left Section */}
 
         <div className="w-full md:w-1/2 relative">
-        <h2>Hello</h2>
+        <h2>Login Page</h2>
 
         </div>
 
