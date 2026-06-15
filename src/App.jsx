@@ -10,6 +10,8 @@ import Categories from './pages/Categories.jsx'
 import NewRelease from './pages/NewRelease.jsx'
 import Contact from './pages/Contact.jsx'
 import Blogs from './pages/Blogs.jsx'
+import CreateAccount from './CreateAccount.jsx'
+import Login from './Login.jsx'
 
 function App() {
 
@@ -22,6 +24,9 @@ function App() {
         <Route path="/new-releases" element={<NewRelease/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
         <Route path="/contact-us" element={<Contact/>}/>
+
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/create-account" element={<CreateAccount/>}/>
         
         </Route>
     </Routes>
